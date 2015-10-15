@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "build":"browserify index.js -o dist/neo-tree.js"
+    "build":"browserify index.js -s neoTree -o dist/neo-tree.js"
   },
   "repository": {
     "type": "git",
