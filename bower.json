@@ -1,0 +1,26 @@
+{
+  "name": "neo-tree",
+  "main": "dist/neo-tree.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ouonet/neo-tree",
+  "authors": [
+    "neo <liang.gong@gmail.com>"
+  ],
+  "description": "javascript tree struct model",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "javascript",
+    "library",
+    "tree"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

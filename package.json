@@ -1,0 +1,35 @@
+{
+  "name": "neo-tree",
+  "version": "1.0.0",
+  "description": "a tree model for javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build":"browserify index.js -o dist/neo-tree.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouonet/neo-tree.git"
+  },
+  "keywords": [
+    "javascript",
+    "tree"
+  ],
+  "author": "liang.gong@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ouonet/neo-tree/issues"
+  },
+  "homepage": "https://github.com/ouonet/neo-tree#readme",
+  "devDependencies": {
+    "neo-iterator": "git+https://github.com/ouonet/neo-iterator.git",
+    "neo-lan": "git+https://github.com/ouonet/neo-lang.git",
+    "neo-lang": "git+https://github.com/ouonet/neo-lang.git",
+    "neo.iterator": "git+https://github.com/ouonet/neo-iterator.git",
+    "should": "^7.1.0"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "neo-lang": "git+https://github.com/ouonet/neo-lang.git"
+  }
+}
