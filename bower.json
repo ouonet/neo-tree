@@ -1,8 +1,8 @@
 {
-  "name": "neo-tree",
-  "main": "dist/neo-tree.js",
+  "name": "neo_tree",
+  "main": "dist/neo_tree.js",
   "version": "1.0.0",
-  "homepage": "https://github.com/ouonet/neo-tree",
+  "homepage": "https://github.com/ouonet/neo_tree",
   "authors": [
     "neo <liang.gong@gmail.com>"
   ],

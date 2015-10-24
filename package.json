@@ -1,15 +1,16 @@
 {
-  "name": "neo-tree",
+  "name": "neo_tree",
   "version": "1.0.0",
   "description": "a tree model for javascript",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "build":"browserify index.js -s neoTree -o dist/neo-tree.js"
+    "build": "browserify index.js -s neo_tree --debug | exorcist dist/neo_tree.js.map > dist/neo_tree.js",
+    "watch": "watchify index.js -o dist/neo_tree.js --debug --verbose"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ouonet/neo-tree.git"
+    "url": "git+https://github.com/ouonet/neo_tree.git"
   },
   "keywords": [
     "javascript",
@@ -18,18 +19,15 @@
   "author": "liang.gong@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ouonet/neo-tree/issues"
+    "url": "https://github.com/ouonet/neo_tree/issues"
   },
-  "homepage": "https://github.com/ouonet/neo-tree#readme",
+  "homepage": "https://github.com/ouonet/neo_tree#readme",
   "devDependencies": {
-    "neo-iterator": "git+https://github.com/ouonet/neo-iterator.git",
-    "neo-lan": "git+https://github.com/ouonet/neo-lang.git",
-    "neo-lang": "git+https://github.com/ouonet/neo-lang.git",
-    "neo.iterator": "git+https://github.com/ouonet/neo-iterator.git",
     "should": "^7.1.0"
   },
   "dependencies": {
     "lodash": "^3.10.1",
-    "neo-lang": "git+https://github.com/ouonet/neo-lang.git"
+    "neo_iterator": "git+https://github.com/ouonet/neo_iterator.git",
+    "neo_lang": "git+https://github.com/ouonet/neo_lang.git"
   }
 }
